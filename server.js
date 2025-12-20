@@ -34,7 +34,7 @@ const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || '37085501976-b54lfva9uc
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://splitta1.vercel.app'],
+  origin: ['http://localhost:3000', 'https://splitta1.vercel.app','https://credresolvesplitwise.vercel.app/dashboard'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
